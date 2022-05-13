@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+    *{
+        text-decoration-style: inherit;
+        font-family: "verdana";
+       
+    }
+    body { background-color:black;
+    
+    font-family: "verdana";
+     
+     color:white; 
+     text-decoration-style:inherit; overflow: scroll;
+
+    }
+   
+ h1 {
+        text-align-last: topleft;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+        font-family: "verdana";
+        text-shadow:darkslategray 1px 1px;
+text-decoration-style:inherit ;
+display:inline-block;
+
+    }
+#d1{
+    width:600px; padding:10px;
+    height:30px;
+    background-color:white;
+    position: fixed;
+    z-index: 2;
+    top:10px;
+    right:10px; border:white 2px;
+    border-radius: 10px;
+}
+
+    select {background-color: white;
+    width: 70px;
+    height: 30px;top: 900px; margin:20px}
+
+   .navbar{position: fixed;
+    top:0px; display:flex;
+       height:50px;
+       width:100%;background-color: black; 
+       z-index: 2;
+        
+
+
+   }.navbar-container{ display:flex;align-items: center;top:0; } 
+   .menue-list{display:flex; list-style: none;margin-left: 80px; text-transform: capitalize;}
+ 
+ .menue-item{margin-right:40px;color:white;text-decoration: none;}
+ /*  .featured-container{width=100%; height:50px;} */
+ .movie-list-container{padding:20px; margin-top: 70px;width: 1300px;}
+ .movie-list-item-img{ width:300px;height:420px; object-fit: cover;margin-top: 30PX;border-radius: 15px;}
+ .movie-list{display: flex; align-items: center; height: 300px;overflow:visible;}
+    .movie-list-item{margin-right: 30px;transition: all is ease-in-out; }
+    .movie-list-item .movie-list-item-img:hover{transform: scale(1.2);margin: 0 30PX; opacity: 0.5;}
+    .movie-list-item-title{background-color: #333;z-index: 1; font-size: 20px;font-weight: bold;position:relative;  }
+    .movie-list-item-butten{padding :5px; background-color: #4bdf00; color:white; border-radius: 10px;
+         position: relative; outline: none;border:none;cursor: pointer; bottom:3px; top:3px }
+    
+    .movie-list-title{ z-index: 1; font-size: 30px;font-weight: bold; padding:10px}
+    .menue-item:hover{color: aqua;}
+    
+    .footer-box{
+     height: 200px;
+       display: flex;
+       width:100%;background-color: black; 
+       
+     }
+       .footer{
+           margin-left: 600px;
+           font-style: inherit;
+       font-weight: bold;
+       font-family:"verdana";margin-bottom: 0px;
+       } 
+       a{
+         text-decoration: none;color: white;
+       }
+       a:hover{
+           color:aqua;
+       }
+       .foot-item{
+         align-items:center; margin: 80px;display: flex;
+
+       }
+       #d3{
+           margin:30px;
+       }
+       
+       
+
+
+
+       
+
+
+
+
+
+    </style>
+<meta charset="UTF_8">
+<link rel="stylesheet" type="text/css" herf="style.css">
+<title>movies website</title>
+<meta name= "movies website">
+
+
+<meta name="description" content="this is movies website">
+<link rel ="stylesheet" herf=""/>
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <div class="navbar-container"> <h1 style="color: aqua;"> MOVIES_TVSHOWS</h1>
+        <div class="menue-container">
+            <ul class="menue-list">
+                <li class="menue-item"><a href="i.html"> home</a></li>
+                <li class="menue-item"><a href="#2">Contact Us</a></li>
+                <li class="menue-item"><a href="#1"> movies</a></li>
+                <li class="menue-item"><a href="login.html">login </a></li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" >
+    <div class="content-container">
+        <div class="featured-container">
+            <img class="featured-title" src="cssmaster/0520_MovieCollage_974.jpg" style="width:100%; height:600px;" >
+        </div>
+
+
+    </div>
+</div>
+<br>
+<br>
+<div class="movie-list-container">
+    <h1 class="movie-list-title" id="1">NEW RELEASES</h1><br>
+    <BR>
+        <BR>
+            <BR>
+    <div class="movie-list-wrapper">
+        <div class="movie-list">
+            <div class="movie-list-item">
+                <img class="movie-list-item-img" src="cssmaster/zt5kihG59UaOYyGcXnBz3HwQxXl.jpg"><br>
+                <span class="movie-list-item-title">INCEPTION</span><br>
+                
+                <button class="movie-list-item-butten" > <a href ="inception.html">WATCH </a></button></div>
+                <div class="movie-list-item">
+                <img class="movie-list-item-img" src="cssmaster/w9BNUVPAl7cCd1kSQllG55s7AmP.jpg"><br>
+                <span class="movie-list-item-title">LA CASA DE PAPEL</span><br>
+                <button class="movie-list-item-butten"> <a href="lacasa.html">WATCH</a></button></div>
+                <div class="movie-list-item">
+                <img Class="movie-list-item-img" src="cssmaster/cBgj41y1RvmW1zJCEX0uNWL0UjW.jpg"><br>
+                <span class="movie-list-item-title">FORGOTTEN</span><br>
+                <button class="movie-list-item-butten"> <a href="forgotten.html">WATCH</a></button></div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="cssmaster/51isa53LFIL._AC_SY580_.jpg"><br>
+                    <span class="movie-list-item-title">THE REVENANT</span><br>
+                    
+                    <button class="movie-list-item-butten"><a href="revenant.html">WATCH</a></button></div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="movie-list-container " id="0">
+    <h1 class="movie-list-title">COMMON</h1>
+    <BR>
+        <BR>
+            <BR>
+                <BR>
+    <div class="movie-list-wrapper">
+        <div class="movie-list">
+           
+               
+               
+               
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="cssmaster/LA.jpg"><br>
+                            <span class="movie-list-item-title">THE LAKE HOUSE</span><br>
+                            
+                            <button class="movie-list-item-butten"><a href="lake.html">WATCH</a></button></div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img" src="cssmaster/SS.jpg"><br>
+                                <span class="movie-list-item-title">SPEED</span><br>
+                                
+                                <button class="movie-list-item-butten"><a href="speed.html">WATCH</a></button></div>
+                               
+                                    <div class="movie-list-item">
+                                        <img class="movie-list-item-img" src="cssmaster/F.jpg"><br>
+                                        <span class="movie-list-item-title">FOCUSE</span><br>
+                                        
+                                        <button class="movie-list-item-butten"><a href="focus.html">WATCH</a></button></div>
+                                        <div class="movie-list-item">
+                                            <img class="movie-list-item-img" src="cssmaster/M.jpg"><br>
+                                            <span class="movie-list-item-title">MIRAGE</span><br>
+                                            
+                                            <button class="movie-list-item-butten"><a href="mirag.html">WATCH</a></button></div>
+                                            
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title" id="1">Action</h1><br>
+            <BR>
+                <BR>
+                    <BR>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="cssmaster/lord-of-war-531b92871bebd.jpg"><br>
+                        <span class="movie-list-item-title">LORD OF WAR</span><br>
+                        
+                        <button class="movie-list-item-butten"><a href="lord.html">WATCH</a></button></div>
+                            
+
+
+           <div class="movie-list-item">
+                <img class="movie-list-item-img" src="cssmaster/da8nshh-229cce4d-ace2-4dd9-b662-d042236f2293.jpg">
+                <span class="movie-list-item-title"> SUICIDE SQAD</span> <br>
+                <button class="movie-list-item-butten"><a href="suicide.html">WATCH</a></button>
+            </div>
+
+
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="cssmaster/291953.222x320.jpg"><br>
+                    <span class="movie-list-item-title">MAD MAX</span><br>
+                    
+                    <button class="movie-list-item-butten"><a href="madmax.html">WATCH</a></button> <br>
+                </div> 
+
+
+
+
+                  <br>    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="cssmaster/S.jpg"><br>
+                        <span class="movie-list-item-title">SAVING PRIVATE RYAN</span><br>
+                        
+                        <button class="movie-list-item-butten"><a href="saving.html">WATCH</a></button>
+                    </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+        
+<br>
+        <br>
+        <br>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title" id="1">Horror</h1><br>
+            <BR>
+                <BR>
+                    <BR>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="cssmaster/R.jpg"><br>
+                        <span class="movie-list-item-title">RINGS</span><br>
+                         
+                        <button class="movie-list-item-butten"><a href="rings.html">WATCH</a></button></div>
+                        <br>
+                        <br>
+                        <br>
+
+
+    </div>
+</div><br>
+<br>
+<br>
+<br>
+
+
+<div class="movie-list-container">
+    <h1 class="movie-list-title" id="1">Romance</h1><br>
+    <BR>
+        <BR>
+            <BR>
+    <div class="movie-list-wrapper">
+        <div class="movie-list">
+
+
+            <div class="movie-list-item">
+                <img Class="movie-list-item-img" src="cssmaster/cd51fe181b48a4ec360ee1a2f6790d80--sweet-november-film-online.jpg"><br>
+                <span class="movie-list-item-title">SWEET NOVEMBRE</span><br>
+                <button class="movie-list-item-butten"><a href ="sweet.html">WATCH</a></button></div>
+
+
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="cssmaster/C.jpg"><br>
+                    <span class="movie-list-item-title">CITY OF ANGLES</span><br>
+                    
+                    <button class="movie-list-item-butten"><a href="city.html">WATCH</a></button></div>
+
+
+</div>
+</div>
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<input id="d1" type= "search" placeholder= "search by title"  />
+ <br>
+ <br>
+ <br>
+ <br>
+<div id="3"></div>
+<h1 style="display:block; left: 20px; font-size: 30px;"> Other</h1> 
+   <label for="country">country </label>
+     <select name="country">
+         <option value="1">united states</option>
+         <option value="2">united kingdom</option>
+         <option value="3">india</option>
+         <option value="4">spain</option>
+         <option value="5">korea</option>
+         <option value="6">egypt</option>
+         <option value="7">australia</option>
+         <option value="8">china</option>
+         <option value="9">russia</option>
+         <option value="10">japan</option>
+         <option value="11">germany</option>
+         <option value="12">saudi arebia</option>
+         <option value="13">canada</option>
+         <option value="14">colombia</option>
+         <option value="15">france</option>
+         <option value="16">mexico</option>
+         <option value="17">marroco</option>
+         <option value="18">south africa</option>
+     </select>
+
+     <label for="genres">genres</label>
+     <select name="genres">
+        <option value="1">action</option>
+        <option value="2">romance</option>
+        <option value="3">horror</option>
+        <option value="4">suspense</option>
+        <option value="5">adventure</option>
+        <option value="6">comedy</option>
+        <option value="7">crime</option>
+        <option value="8">drama</option>
+        <option value="9">fantasy</option>
+        <option value="10">sc-fi</option>
+        <option value="11">thriller</option>
+        <option value="12">family</option>
+     </select>
+<label for="language">language</label>
+     <select> 
+        <option value="1">english</option>
+        <option value="1">russian</option>
+        <option value="1">chinese</option>
+        <option value="1">french</option>
+        <option value="1">spanish</option>
+        <option value="1">arabic</option>
+        <option value="1">hindi</option>
+        <option value="1">japanese</option>
+        <option value="1">korean</option>
+        <option value="1">german</option>
+        <option value="1">italian</option>
+        <option value="1">polish</option>
+     </select>
+    
+     <label form="year">year </label>
+     <select name="year">
+     <ption value="1"> 1990s</option>
+     <option value="2"> 2000</option>
+     <option value="3" >2001</option>
+     <option value="4" >2002</option>
+     <option value="5" >2003</option>
+     <option value="6">2004</option>
+     <option value="7"> 2005</option>
+     <option value="8"> 2006</option>
+     <option value="9"> 2007</option>
+     <option value="10"> 2008</option>
+     <option value="11"> 2009</option>
+     <option value="12"> 2010</option>
+     <option value="13"> 2011</option>
+     <option value="14"> 2012</option>
+     <option value="15"> 2013</option>
+     <option value="16"> 2014</option>
+     <option value="17"> 2015</option>
+     <option value="18"> 2016</option>
+     <option value="19"> 2017</option>
+     <option value="20"> 2018</option>
+     <option value="21"> 2019</option>
+     <option value="22"> 2020</option>
+     <option value="23"> 2021</option></select>
+
+
+
+     
+
+<label for=rating>rating</label>
+<select name="rating">
+    <option value="1">[G]</option>
+    <option value="2">[PG]</option>
+    <option value="3">[PG_13]</option>
+    <option value="4">[R]</option>
+    <option value="5">[TV_14]</option>
+    <option value="6">[TV_G]</option>
+    <option value="7">[TV_MA]</option>
+    <option value="8">[TV_PG]</option>
+</select>
+
+ <label for="quality">quality</label>
+ <select name="quality">
+    <option value="1">bluray</option>
+    <option value="1">DVD-SCR</option>
+    <option value="1">DVD-RIP</option>
+    <option value="1">WEB-DL</option>
+    <option value="1">HD-RIP</option>
+ </select> </div><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <hr>
+
+ <div class="footer-box" id="2">
+     <div class="foot-item" style="font-size: 15px;font-family: arial;">
+         
+            
+             
+            </div>
+             <div class="foot-item"   style="font-size: 15px;font-family: arial;">
+                
+                <ul>
+                    <li> <h3> Contact us</h><br></li>
+                    <li  ><a style="text-decoration: underline;color:rgb(24, 22, 148)" href="alaasharaa@yahoo.com">alaasharaa@yahoo.com</a></li>
+                    <li  ><a style="text-decoration: underline;color:rgb(24, 22, 148)" href="aalshara888@gmail.com">aalshara888@gmail.com</a></li>
+
+            
+
+     </div>
+     </div>
+    <p class="footer"  > 
+       copyright&#169; 2021 </p>
+       
+    
